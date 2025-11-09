@@ -1,0 +1,31 @@
+🚀 Ready to handle job recommendations!
+✅ Server running on http://localhost:5050
+✅ Database connected successfully!
+--> POST /api/recommend 
+--> POST /api/recommend 
+--> POST /api/recommend 
+--> POST /api/recommend 
+❌ Invalid JSON in request body: Expected property name or '}' in JSON at position 1 (line 1 column 2)
+--> POST /api/recommend {}
+--> POST /api/recommend 
+--> POST /api/recommend 
+--> POST /api/recommend 
+--> POST /api/recommend 
+--> POST /api/recommend 
+--> POST /api/recommend {"skills":["python","sql","data analysis"],"top_k":5}
+--> POST /api/recommend {"skills":["python"],"top_k":5}
+--> POST /api/recommend {"skills":["python"],"top_k":5}
+--> POST /api/recommend {"skills":["python"],"top_k":5}
+--> POST /api/recommend {"skills":["python"],"top_k":5}
+--> POST /api/recommend {"skills":["python"],"top_k":5}
+--> POST /api/recommend {"skills":["python","ml"],"top_k":5}
+--> POST /api/recommend {"skills":["python","ml"],"top_k":5}
+--> POST /api/recommend {"skills":["python","machine learnning"],"top_k":5}
+--> POST /api/recommend {"skills":["python","machine learnning"],"top_k":5}
+--> POST /api/recommend {"skills":["teaching"],"top_k":5}
+--> POST /api/recommend {"skills":["communication"],"top_k":5}
+--> POST /api/recommend {"skills":[],"top_k":5}
+--> POST /api/recommend {"skills":[],"top_k":5}
+--> POST /api/recommend {"skills":[],"top_k":5}
+--> POST /api/recommend {"skills":["python"],"top_k":5}
+--> POST /api/recommend {"skills":["python","sql","excel"],"top_k":5}
