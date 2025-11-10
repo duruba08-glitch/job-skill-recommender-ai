@@ -1,0 +1,23 @@
+* {
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+form {
+  margin: 20px 0;
+}
+
+input {
+  padding: 8px;
+  width: 70%;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px 16px;
+}
