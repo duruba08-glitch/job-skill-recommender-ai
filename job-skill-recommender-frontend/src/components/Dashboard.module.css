@@ -60,3 +60,28 @@
 .empty{
   color: var(--muted, rgba(255,255,255,0.78));
 }
+
+.missingWrap{
+  margin-top:10px;
+}
+
+.missingLabel{
+  font-size:0.85rem;
+  color: rgba(255,255,255,0.9);
+  margin-bottom:6px;
+}
+
+.badges{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+}
+
+.badge{
+  background: rgba(255,255,255,0.06);
+  color: #ffffff;
+  padding:6px 10px;
+  border-radius:999px;
+  font-size:0.85rem;
+  border:1px solid rgba(255,255,255,0.04);
+}

@@ -17,6 +17,16 @@ const Dashboard = ({ recommendations }) => {
               <span className={styles.score}>Score: {job.score.toFixed(2)}</span>
             </div>
             <div className={styles.meta}>Matched Skills: {job.matched_skills.join(', ')}</div>
+            {job.missing_skills && job.missing_skills.length > 0 && (
+              <div className={styles.missingWrap}>
+                <div className={styles.missingLabel}>Missing Skills:</div>
+                <div className={styles.badges}>
+                  {job.missing_skills.map((s, i) => (
+                    <span key={i} className={styles.badge}>{s}</span>
+                  ))}
+                </div>
+              </div>
+            )}
           </li>
         ))}
       </ul>
