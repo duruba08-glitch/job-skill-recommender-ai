@@ -38,7 +38,7 @@ npm start
 
 👤 Author
 Oinam Bishwamitra Singh
-🎓 3rd Year B.Tech (Data Science & Analytics) — Oracle Academy
+🎓 3rd Year B.Tech (Data Science & Analytics) with Oracle Academy
 🏫 Sharda University, Greater Noida
 
 
